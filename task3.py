@@ -13,3 +13,39 @@ Enter the fift price: 7.99
 Your subtotal is $63.71 and your taxes total $7.65 for a total of $71.36
 
 """
+
+p1 = input("Enter the first price")
+p2 = input("Enter the second price")
+p3 = input("Enter the third price")
+p4 = input("Enter the fourth price")
+p5 = input("Enter the fift price")
+
+p1 = float(p1)
+p2 = float(p2)
+p3 = float(p3)
+p4 = float(p4)
+p5 = float(p5)
+
+sub = p1 + p2 + p3 + p4 + p5
+
+sub = round(sub,2)
+
+sub = float(sub)
+
+tax = sub*(12/100)
+
+tax = round(tax, 2)
+
+tax = float(tax)
+
+total = sub + tax
+
+total = round(total, 2)
+
+total = str(total)
+
+tax = str(tax)
+
+sub = str(sub)
+
+print("Your subtotal is$"+sub, "and your taxed total $"+tax,"for a total of$"+total)
