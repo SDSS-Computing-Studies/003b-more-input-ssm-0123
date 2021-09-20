@@ -18,6 +18,7 @@ noun = input("noun").strip()
 place = input("place").strip()
 verb = input("verb").strip()
 adverb = input("adverb").strip()
+food2 = input("food").strip()
 things = input("things").strip()
 
-print ("Today we picked apple from",PERSON+"'s Orchard. I had no idea there were so many different varieties of apples. I ate "+ adj1 +" apples straight off the tree that tasted like "+ food +". Then there was a "+ adj2 +" apple that looked like a "+noun+". When our bag was full, we went on a free hay ride to "+place+" and back. It ended at a hay pile where we got to "+verb, adverb+". I can hardly wait to get home and cook with the apples. We are going to make apple "+ food +" and "+things+" pies!.")
+print ("Today we picked apple from",PERSON+"'s Orchard. I had no idea there were so many different varieties of apples. I ate "+ adj1 +" apples straight off the tree that tasted like "+ food +". Then there was a "+ adj2 +" apple that looked like a "+noun+".  When our bag was full, we went on a free hay ride to "+place+" and back. It ended at a hay pile where we got to "+verb, adverb+". I can hardly wait to get home and cook with the apples. We are going to make apple "+ food2 +" and "+things+" pies!")
