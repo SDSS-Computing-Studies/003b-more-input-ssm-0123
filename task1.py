@@ -28,5 +28,5 @@ interst = amount * (rate/100) * days / 365
 interst = round(interst, 1)
 interst = str(interst)
 
-print("You earned $"+interst,"interst.")
+print("You earned $"+interst,"interest.")
 
