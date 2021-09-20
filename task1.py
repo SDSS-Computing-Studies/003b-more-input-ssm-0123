@@ -14,6 +14,7 @@ Enter the # of days in the month: 30
 You earned $0.20 interest. 
 (2 points) 
 """
+import math
 
 amount = input("Enter your amount")
 rate = input("Enter your rate")
@@ -24,7 +25,7 @@ rate = float(rate)
 days = int(days)
 
 interst = amount * (rate/100) * days / 365
-interst = round(interst, 2)
+interst = round(interst, 1)
 interst = str(interst)
 
 print("You earned $"+interst,"interst.")
