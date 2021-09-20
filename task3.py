@@ -48,4 +48,4 @@ tax = str(tax)
 
 sub = str(sub)
 
-print("Your subtotal is$"+sub, "and your taxed total $"+tax,"for a total of$"+total)
+print("Your subtotal is $"+sub, "and your taxed total $"+tax,"for a total of $"+total)
